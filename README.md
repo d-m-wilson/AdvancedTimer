@@ -3,7 +3,7 @@ AdvancedTimer v1.0.2.0 alpha
 
 AdvancedTimer implementation for Xamarin.Forms
 
-Warning: This is an unstable, alpha-quality version which has not been tested AT ALL.. yet. I will be testing it in the near future as I use it in a Xamarin.Forms app, currently in development.
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) **Warning**: This is an unstable, alpha-quality version which has not been tested AT ALL.. yet. I will be testing it in the near future as I use it in a Xamarin.Forms app, currently in development.
 
 ## AdvancedTimer
 Timer object and its methods are implemented for extended support for timers.
@@ -15,7 +15,7 @@ Can be used with Dependency service.
 * Not available on NuGet yet; I don't have a Mac with which to build the iOS project.
 * In your .NET Standard 2.0 project, add a reference to AdvancedTimer.Forms.Plugin.Abstractions.dll
 * In your Android project, add a reference to AdvancedTimer.Forms.Plugin.Android.dll
-* In your iOS project, add a reference to AdvancedTimer.Forms.Plugin.Android.dll
+* In your iOS project, add a reference to AdvancedTimer.Forms.Plugin.iOSUnified.dll
 
 In your iOS and Android projects please call:
 
