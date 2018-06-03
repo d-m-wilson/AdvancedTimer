@@ -68,9 +68,9 @@ timer.isTimerEnabled();
 
 #### Release Notes
 * Version 1.0.2.0 alpha:
-** Migrated from Portable Class Library (PCL) to .NET Standard 2.0
-** Removed deprecated WinPhone and iOS classic projects
-** Upgraded Xamarin.Forms from 1.3.1.6296 to 3.0.0.482510
+  * Migrated from Portable Class Library (PCL) to .NET Standard 2.0
+  * Removed deprecated WinPhone and iOS classic projects
+  * Upgraded Xamarin.Forms from 1.3.1.6296 to 3.0.0.482510
 
 #### Contributors
 * [ufuf](https://github.com/ufuf)
