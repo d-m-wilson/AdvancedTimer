@@ -12,7 +12,7 @@ For Xamarin.Forms projects
 Can be used with Dependency service.
 
 #### Setup
-* Not available on NuGet yet; I don't have a Mac with which to build the iOS project.
+* Available on NuGet: https://www.nuget.org/packages/info.dmwilson.AdvancedTimer.Forms.Plugin
 * In your .NET Standard 2.0 project, add a reference to AdvancedTimer.Forms.Plugin.Abstractions.dll
 * In your Android project, add a reference to AdvancedTimer.Forms.Plugin.Android.dll
 * In your iOS project, add a reference to AdvancedTimer.Forms.Plugin.iOSUnified.dll
@@ -67,7 +67,9 @@ timer.isTimerEnabled();
 ```
 
 #### Release Notes
-* Version 1.0.2.0 alpha:
+* Version 1.0.2.0-alpha2:
+  * Resolved issue with the nuspec file which resulted in a build error for Android client projects
+* Version 1.0.2.0-alpha:
   * Migrated from Portable Class Library (PCL) to .NET Standard 2.0
   * Removed deprecated WinPhone and iOS classic projects
   * Upgraded Xamarin.Forms from 1.3.1.6296 to 3.0.0.482510
