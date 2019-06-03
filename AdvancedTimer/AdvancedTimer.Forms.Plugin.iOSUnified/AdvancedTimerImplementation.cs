@@ -1,15 +1,14 @@
-﻿using AdvancedTimer.Forms.Plugin.Abstractions;
-using System;
-using Xamarin.Forms;
-using AdvancedTimer.Forms.Plugin.iOS;
+﻿using System;
 using System.Timers;
+using AdvancedTimer.Forms.Plugin.Abstractions;
+using Xamarin.Forms;
 
-[assembly: Dependency(typeof(AdvancedTimerImplementation))]
 namespace AdvancedTimer.Forms.Plugin.iOS
 {
     /// <summary>
     /// AdvancedTimer Implementation
     /// </summary>
+    [Foundation.Preserve(AllMembers = true, Conditional = false)]
     public class AdvancedTimerImplementation : IAdvancedTimer
     {
         Timer timer;
@@ -19,7 +18,10 @@ namespace AdvancedTimer.Forms.Plugin.iOS
         /// <summary>
         /// Used for registration with dependency service
         /// </summary>
-        public static void Init() { }
+        public static void Init()
+        {
+            DependencyService.Register<IAdvancedTimer, AdvancedTimerImplementation>();
+        }
 
         /// <summary>
         /// Used for initializing timer and options

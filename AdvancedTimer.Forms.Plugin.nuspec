@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
        <id>info.dmwilson.AdvancedTimer.Forms.Plugin</id>
-       <version>1.0.2.0-alpha2</version>
+       <version>1.0.2.0-alpha5</version>
        <title>AdvancedTimer Plugin for Xamarin.Forms</title>
        <authors>Ufuk ARSLAN,David M. Wilson</authors>
        <owners>David M. Wilson</owners>
@@ -10,7 +10,7 @@
        <projectUrl>https://github.com/d-m-wilson/AdvancedTimer</projectUrl>
        <requireLicenseAcceptance>false</requireLicenseAcceptance>
        <description>
-		 This is a .NET Standard 2.0 version of the AdvancedTimer plugin by Ufuk Arslan. The code has not been modified, only the project types and references.
+         This is a .NET Standard 2.0 version of the AdvancedTimer plugin by Ufuk Arslan.
 
          Timer object and its methods are implemented for extended support for timers.
          You can start, stop, change interval of a timer.
