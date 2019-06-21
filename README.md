@@ -1,9 +1,9 @@
-AdvancedTimer v1.0.2.0 alpha
+AdvancedTimer v1.0.2-alpha5
 =============
 
 AdvancedTimer implementation for Xamarin.Forms
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) **Warning**: This is an unstable, alpha-quality version which has not been tested AT ALL.. yet. I will be testing it in the near future as I use it in a Xamarin.Forms app, currently in development.
+![#f0f000](https://placehold.it/15/f0f000/000000?text=+) **Caution**: I consider this software to be beta-quality which may or may not be suitable for use in production. I have used it in a published Xamarin.Forms app, and so far it seems to work well, but your mileage may vary. (The version will remain at v1.0.2-alpha5 for now because I'm too lazy to make and upload a new NuGet package just for the sake of changing "-alpha5" to "-beta1".)
 
 ## AdvancedTimer
 Timer object and its methods are implemented for extended support for timers.
@@ -67,6 +67,8 @@ timer.isTimerEnabled();
 ```
 
 #### Release Notes
+* Version 1.0.2-alpha5:
+  * After much wailing and gnashing of teeth, I finally fixed the crash-on-startup bug on iOS!
 * Version 1.0.2.0-alpha2:
   * Resolved issue with the nuspec file which resulted in a build error for Android client projects
 * Version 1.0.2.0-alpha:
